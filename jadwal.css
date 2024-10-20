@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: absolute;
+    top: 20px;
+    width: 100%;
+
+}
+
+.navbar a {
+    background-color: #0E2C48;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px 20PX;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: #9A1316;
+    margin-top: 0; 
+  }
+
+
+  .listtable{
+    display: flex;
+    flex-wrap: wrap; /* Memungkinkan elemen untuk membungkus ke baris berikutnya */
+    justify-content: space-around; /* Membagi ruang di antara item */
+}
+
+.item {
+    flex: 1 1 300px; /* Item bisa tumbuh, menyusut, dan memiliki lebar minimum 300px */
+    margin: 10px; /* Jarak antar item */
+    padding: 20px; /* Ruang dalam item */
+    background-color: #f0f0f0; /* Warna latar belakang item */
+}
+
+  .pict img{
+    width :120px;
+    height: 100px;
+  }
+
+.pict {
+  display: flex;
+    width: 100px; 
+    height: auto;
+    margin-left: 50px;
+    margin-top: 100px; 
+    gap: 150px;
+}
+
+  .judul{
+    margin-top: 50px;
+    text-align: center;
+    color: #0E2C48;
+    
+  }
+
+ .listtabel{
+  margin-top: 30px;
+ }
+
+ .table{
+  margin: 0;
+  text-align: center;
+  border: 2px solid #0E2C48;
+ }
+
+ td{
+  padding: 5px;
+  width: 10px;
+ }
+
+ th{
+  width: 20px;
+ }
+
+ th, td {
+  border: 2px solid #0E2C48; 
+}
+
+ 
+
